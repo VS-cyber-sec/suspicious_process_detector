@@ -1,0 +1,163 @@
+======================================================================
+SUSPICIOUS PROCESS DETECTOR - SCAN REPORT
+======================================================================
+Scan time         : 2026-09-22 17:25:57
+Host              : Vaishu (Windows 10)
+CPU threshold     : 80%
+Processes scanned : 223
+Flagged processes : 17
+======================================================================
+
+[1] PID 0 - System Idle Process
+    Path       : N/A
+    Working dir: N/A
+    User       : NT AUTHORITY\SYSTEM
+    CPU%       : 1150.8
+    Risk score : 1 flag(s)
+    Reasons:
+      - High CPU usage: 1150.8% (threshold 80%)
+----------------------------------------------------------------------
+[2] PID 188 - N/A
+    Path       : N/A
+    Working dir: N/A
+    User       : N/A
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Process has no readable name
+----------------------------------------------------------------------
+[3] PID 332 - backgroundTaskHost.exe
+    Path       : C:\Windows\System32\backgroundTaskHost.exe
+    Working dir: C:\Program Files\WindowsApps\Microsoft.WindowsStore_22608.1401.3.0_x64__8wekyb3d8bbwe
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[4] PID 784 - RtkAudUService64.exe
+    Path       : C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_f7fdb960c5e8ef2a\RtkAudUService64.exe
+    Working dir: C:\WINDOWS\system32
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[5] PID 2976 - DefenderSessionHelper.exe
+    Path       : C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26080.4-0\DefenderSessionHelper.exe
+    Working dir: C:\WINDOWS\system32
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[6] PID 3684 - SearchProtocolHost.exe
+    Path       : C:\Windows\System32\SearchProtocolHost.exe
+    Working dir: N/A
+    User       : N/A
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[7] PID 5580 - RtkAudUService64.exe
+    Path       : C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_f7fdb960c5e8ef2a\RtkAudUService64.exe
+    Working dir: N/A
+    User       : N/A
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[8] PID 5640 - MpDefenderCoreService.exe
+    Path       : C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26080.4-0\MpDefenderCoreService.exe
+    Working dir: N/A
+    User       : N/A
+    CPU%       : 1.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[9] PID 7464 - SecurityHealthService.exe
+    Path       : C:\Windows\System32\SecurityHealthService.exe
+    Working dir: N/A
+    User       : N/A
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[10] PID 8544 - ApplicationFrameHost.exe
+    Path       : C:\Windows\System32\ApplicationFrameHost.exe
+    Working dir: C:\WINDOWS\system32
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[11] PID 10004 - CrossDeviceResume.exe
+    Path       : C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe
+    Working dir: C:\WINDOWS\system32
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[12] PID 10144 - CrossDeviceService.exe
+    Path       : C:\Program Files\WindowsApps\MicrosoftWindows.CrossDevice_1.26072.116.0_x64__cw5n1h2txyewy\CrossDeviceService.exe
+    Working dir: C:\WINDOWS\system32
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[13] PID 10252 - StartMenuExperienceHost.exe
+    Path       : C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+    Working dir: C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[14] PID 11368 - ShellExperienceHost.exe
+    Path       : C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+    Working dir: C:\WINDOWS\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[15] PID 11864 - MicrosoftStartFeedProvider.exe
+    Path       : C:\Program Files\WindowsApps\Microsoft.StartExperiencesApp_1.380.2.0_x64__8wekyb3d8bbwe\MicrosoftStartFeedProvider\MicrosoftStartFeedProvider.exe
+    Working dir: C:\WINDOWS\system32
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[16] PID 13316 - PhoneExperienceHost.exe
+    Path       : C:\Program Files\WindowsApps\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe
+    Working dir: C:\WINDOWS\system32
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
+[17] PID 14196 - SecurityHealthSystray.exe
+    Path       : C:\Windows\System32\SecurityHealthSystray.exe
+    Working dir: C:\WINDOWS\system32
+    User       : VAISHU\admin
+    CPU%       : 0.0
+    Risk score : 1 flag(s)
+    Reasons:
+      - Name looks auto-generated (long random-looking string)
+----------------------------------------------------------------------
