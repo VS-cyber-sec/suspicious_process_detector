@@ -1,30 +1,5 @@
 #!/usr/bin/env python3
-"""
-Suspicious Process Detector
-============================
-Scans every running process on the host and flags any that look suspicious
-based on three heuristics:
 
-  1. High CPU usage      - CPU% above a configurable threshold (default 80%)
-  2. Unusual process name - masquerading as a known system process from the
-                             wrong location, matching known offensive-security
-                             tool names, or looking like a randomly generated
-                             filename
-  3. Temp-directory execution - the binary (or its working directory) lives
-                             inside a common temp/staging path such as
-                             /tmp, C:\\Windows\\Temp, or %LOCALAPPDATA%\\Temp
-
-Results are written to a timestamped, human-readable report (default:
-suspicious_processes.txt). Processes can trigger more than one heuristic -
-the more flags a process has, the higher up the report it appears.
-
-Usage:
-    python suspicious_process_detector.py
-    python suspicious_process_detector.py --cpu-threshold 70 --output report.txt
-    python suspicious_process_detector.py --interval 2
-
-Author: Vaishnavi Chavan
-"""
 
 import argparse
 import os
@@ -41,14 +16,7 @@ except ImportError:
     sys.exit("[!] psutil is required. Install it with: pip install psutil")
 
 
-# ---------------------------------------------------------------------------
-# Detection knowledge base
-# ---------------------------------------------------------------------------
 
-# Well-known system process names mapped to the directories they are
-# legitimately expected to run from. Malware frequently reuses these exact
-# names ("masquerading") but drops its binary somewhere else entirely -
-# e.g. a "svchost.exe" running from C:\Users\Public is a major red flag.
 KNOWN_SYSTEM_PROCESSES = {
     # Windows
     "svchost.exe": [r"c:\windows\system32", r"c:\windows\syswow64"],
